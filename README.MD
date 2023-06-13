@@ -1,0 +1,1 @@
+### Simple library of Reactive Extenstion of JavaScript (RxJS)
