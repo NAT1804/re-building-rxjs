@@ -29,7 +29,18 @@ export class Observable {
       });
     }
 
+    console.log(intervalWaitToRun, 'function')
+
     return new Observable(intervalWaitToRun);
+    // return new Observable((next) => {
+    //   const setIntervalId = setInterval(() => {
+    //     next();
+    //   }, miliseconds);
+
+    //   return new Subscription(() => {
+    //     clearInterval(setIntervalId);
+    //   });
+    // });
 
   }
 }
